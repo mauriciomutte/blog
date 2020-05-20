@@ -1,38 +1,14 @@
 # Gatsby Theme Elemental
 
-[Live Demo](https://elemental-theme.netlify.com/) [Elemental Starter](https://github.com/akzhy/gatsby-starter-elemental)
+**[Live Demo](https://elemental-theme.netlify.com/)** | **[Elemental Starter](https://github.com/akzhy/gatsby-starter-elemental)**
 
-A Gatsby portfolio theme for artists, designers, bloggers, photographers and other creators.
+
+Elemental is a portfolio template suitable for artists, photographers, designers etc. With the theme you can create blog posts, portfolio posts an miscellaneous posts (such as privacy-policy).
 
 ## Installation
-To use this theme follow these instructions:
-
-* Install the theme
 
 ```
 npm install gatsby-theme-elemental
-```
-
-* Add the theme to your `gatsby-config.js`
-
-```
-module.exports = {
-  plugins: [
-    'gatsby-theme-elemental'
-  ]
-}
-```
-
-* Develop
-
-```
-gatsby develop
-```
-
-or build
-
-```
-gatsby build
 ```
 
 ### Configuring
@@ -54,6 +30,7 @@ let siteMetadata = {
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: true, // Whether to enable the darkmode. Change to false if you want the light mode
+    switchTheme: true,
     // The links shown on the navbar and footer, follow the same structure to add or remove more items.
     navLinks: [{
             name: "HOME",
@@ -156,9 +133,9 @@ To create a grid, follow the below structure
 
 ```
 [row]
-  [col]
-    **Markdown**
-  [/col]
+[col]
+**Markdown**
+[/col]
 [/row]
 ```
 
@@ -184,4 +161,8 @@ On form submission, a `post` request will be sent to the URL given with properti
 ```
 
 If response is "success" a "Message sent" message will be shown, otherwise an error message is shown.
-# blog
+
+
+## Contributing
+
+Any kind of contributions are welcome. Bump the version and create a PR.
