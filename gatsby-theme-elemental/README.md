@@ -2,7 +2,6 @@
 
 **[Live Demo](https://elemental-theme.netlify.com/)** | **[Elemental Starter](https://github.com/akzhy/gatsby-starter-elemental)**
 
-
 Elemental is a portfolio template suitable for artists, photographers, designers etc. With the theme you can create blog posts, portfolio posts an miscellaneous posts (such as privacy-policy).
 
 ## Installation
@@ -32,53 +31,57 @@ let siteMetadata = {
     darkmode: true, // Whether to enable the darkmode. Change to false if you want the light mode
     switchTheme: true,
     // The links shown on the navbar and footer, follow the same structure to add or remove more items.
-    navLinks: [{
+    navLinks: [
+        {
             name: "HOME",
-            url: "/"
+            url: "/",
         },
         {
             name: "ABOUT",
-            url: "/about"
+            url: "/about",
         },
         {
             name: "BLOG",
-            url: "/blog"
+            url: "/blog",
         },
         {
             name: "PORTFOLIO",
-            url: "/portfolio"
+            url: "/portfolio",
         },
         {
             name: "CONTACT",
-            url: "/contact"
-        }
+            url: "/contact",
+        },
     ],
     // Same as navbar links, except these are shown on the footer
-    footerLinks: [{
-        name: "PRIVACY POLICY",
-        url: "/privacy-policy"
-    }],
+    footerLinks: [
+        {
+            name: "PRIVACY POLICY",
+            url: "/privacy-policy",
+        },
+    ],
     // Your social profile links. The icons of the given social medias are available in the static folder. If you are adding a new item, include the icon in the static/images folder.
-    social: [{
+    social: [
+        {
             name: "Facebook",
             icon: "/images/Facebook.svg",
-            url: "#"
+            url: "#",
         },
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "#"
+            url: "https://twitter.com/anabneri",
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "#"
+            url: "https://www.instagram.com/anabneri",
         },
         {
             name: "Youtube",
             icon: "/images/Youtube.svg",
-            url: "#"
-        }
+            url: "#",
+        },
     ],
     contact: {
         /* Leave this completely empty (no space either) if you don't want a contact form. */
@@ -86,10 +89,9 @@ let siteMetadata = {
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
         mail: "hi@akzhy.com",
         phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
-    }
+        address: "1234 \nLocation \nLocation",
+    },
 }
-
 ```
 
 #### Creating new blog posts.
@@ -141,7 +143,6 @@ To create a grid, follow the below structure
 
 The columns will have equal width on wide screens, and will expand on smaller screens.
 
-
 #### Creating miscellaneous posts
 
 These posts follow the URL structure of `http://example.com/miscellaneous-post/`. They are useful for creating pages like `privacy-policy`
@@ -161,7 +162,6 @@ On form submission, a `post` request will be sent to the URL given with properti
 ```
 
 If response is "success" a "Message sent" message will be shown, otherwise an error message is shown.
-
 
 ## Contributing
 
