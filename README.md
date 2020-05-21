@@ -13,11 +13,10 @@ I used some technologies in this project:
 # :nail_care: Design thought to be minimalist, objective
 
 ### Using Dark Mode :new_moon:
-
-<img width="951" alt="print1" src="https://user-images.githubusercontent.com/42419543/82346974-7d6f1a00-99cd-11ea-84bd-efedec84934c.PNG">
+...
 
 ### and Light Mode :sun_with_face:
 
-<img width="955" alt="print2" src="https://user-images.githubusercontent.com/42419543/82347084-94ae0780-99cd-11ea-8744-ed88631d5d8f.PNG">
+...
 
 # :two_hearts: Accepted Pull Requests
