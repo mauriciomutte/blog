@@ -1,13 +1,14 @@
-import React from "react";
-import { graphql } from "gatsby";
-import Img from "gatsby-image";
-import Layout from "../components/layout";
-import LatestPosts from "../components/blogposts-latest";
-import SEO from "../components/seo";
-import Date from "../components/date";
-import "../style/blog-singlepage.less";
+import React from "react"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
+import Layout from "../components/layout"
+import LatestPosts from "../components/blogposts-latest"
+import SEO from "../components/seo"
+import Date from "../components/date"
+import "../style/blog-singlepage.less"
+import Comments from "../components/Comments"
 
-export default function({ data }) {
+export default function ({ data }) {
     return (
         <Layout>
             <SEO
@@ -38,20 +39,27 @@ export default function({ data }) {
                         <div
                             className="col s12 m11 l10"
                             dangerouslySetInnerHTML={{
-                                __html: data.markdownRemark.html
+                                __html: data.markdownRemark.html,
                             }}
                         ></div>
                     </div>
                 </article>
+                <Comments
+                    url={data.markdownRemark.frontmatter.slug}
+                    title={data.markdownRemark.frontmatter.title}
+                />
                 <LatestPosts id={data.markdownRemark.id} />
             </div>
         </Layout>
-    );
+    )
 }
 
 export const query = graphql`
     query($slug: String!) {
         markdownRemark(fields: { slug: { eq: $slug } }) {
+            fields {
+                slug
+            }
             html
             id
             frontmatter {
@@ -79,4 +87,4 @@ export const query = graphql`
             }
         }
     }
-`;
+`
