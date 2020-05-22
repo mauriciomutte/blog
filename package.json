@@ -10,6 +10,7 @@
         "clean": "yarn workspace site clean"
     },
     "dependencies": {
-        "gatsby-theme-elemental": "file:gatsby-theme-elemental"
+        "gatsby-theme-elemental": "file:gatsby-theme-elemental",
+        "react-disqus-comments": "^1.4.0"
     }
 }
