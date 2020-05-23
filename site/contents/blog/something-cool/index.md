@@ -27,13 +27,13 @@ Você pode encontrar mais informações no próprio site do Gatsby e até fazer 
 
 Bom eu sou uma pessoa que tem bastante dificuldade com front-end e não tenho vergonha nenhuma de admitir isso, no começo da minha carreira eu mexia com temas no tumblr, mas era apenas editar coisas que já existiam, nunca tinha feito nada do zero.
 
-Eu tinha muito receio de ficar muito ruim, ou de eu não entender nada, ano passado(2019) eu testei jekyll pra construir meu primeiro site, peguei um tema pronto e fui colocando do jeito que eu queria, e até que o resultado ficou bem legal: [anabneri.github.io](https://anabneri.github.io/) .
+Eu tinha muito receio de ficar muito ruim, ou de eu não entender nada, ano passado (2019) eu testei jekyll pra construir meu primeiro site, peguei um tema pronto e fui colocando do jeito que eu queria, e até que o resultado ficou bem legal: [anabneri.github.io](https://anabneri.github.io/) .
 
 Mas conforme foi passando os dias eu sentia que eu devia fazer algo do zero, pra me desafiar mesmo, pra isso eu optei fazer um curso de uma pessoa bem reconhecida na comunidade o Willian Justen, ouvi falar muito bem do curso de Gatsby dele e resolvi fazer, foi a melhor escolha que eu fiz, pois no curso dele eu aprendi sobre Graphql, estilos, semântica HMTL, React, PWA e etc recomendam que façam!
 
-Só que **uma das coisas que eu mais sofri** foi com as configurações dos Gatsby, por ser um gerador de sites aberto e também alimentado pela comunidade tem muita coisa que muda e atualiza, como por exemplo: o curso do Justen é de 2019(atual até) e a configuração de images que ele usa não é mais suportada.
+Só que **uma das coisas que eu mais sofri** foi com as configurações dos Gatsby, por ser um gerador de sites aberto e também alimentado pela comunidade tem muita coisa que muda e atualiza conforme o tempo passa, como por exemplo: o curso do Justen é de 2019 (atual até) e a configuração de _images_ que ele usa não é mais suportada.
 
-Tive bastante dificuldade com a configuração de images endo assim, tive que recorrer a colegas que já manjam dos paranauê para me darem uma luz, foi aí que eu descobri que tem um v2 do remark-images do gatsby, pode parecer bobo, mas foi um erro que fiquei um tempinho.
+Devido a essa dificuldade com o _images_, tive que recorrer a colegas que já manjam dos paranauê para me darem uma luz, foi aí que eu descobri que tem um v2 do remark-images do gatsby, pode parecer bobo, mas foi um erro que fiquei um tempinho.
 
 Responsividade, foi algo que eu penei muito, provavelmente por eu não ter tido muita experiência com isso só com HTML e CSS, mas por mais que durante o curso eu estivesse copiando o código meu código responsivo não funcionava. Foi aí que pedi ajuda, e o próprio Justen mostrou onde estavam meus erros, que era falta de atenção, muitas coisas que ele escrevia durante o curso passaram despercebido para mim, mas acontece claro, porém foi uma grande dificuldade.
 
@@ -66,13 +66,13 @@ Você pode ver mais informações sobre gatsby na live que meu colega [Luis Lan�
 
 Sinceramente? Minha vontade é de ter minha própria plataforma, **pode ser que uma vez ou outra eu possa postar algo por lá**, mas eu estou tão animada desenvolvendo features pra esse blog, que possa ser que eu escreva bem menos lá.
 
-Um artigo do Willian Justen me inspirou muito para não desanimar de ter minha própria plataforma foi esse -> [Diga Não Ao Medium e Tenha Sua Própria Plataforma](https://willianjusten.com.br/diga-nao-ao-medium-tenha-sua-propria-plataforma)
+Um artigo do Willian Justen que me inspirou muito a não desanimar de ter minha própria plataforma foi esse -> [Diga Não Ao Medium e Tenha Sua Própria Plataforma](https://willianjusten.com.br/diga-nao-ao-medium-tenha-sua-propria-plataforma)
 
-Uma frase bem bacana que ele usa é
+Uma frase bem bacana que ele usa é:
 
 > Ter um blog pessoal, marca sua presença na web, as pessoas te identificam e identificam o seu conteúdo. Por mais que o Medium tenha um alcance bem grande e você ache que está ganhando notoriedade com isso, a sua imagem é pulverizada e às vezes o retorno é até menor do que se fosse em seu próprio blog.
 
-Não posso citar mais razões, é sua marca que você está criando, utilizando as outras plataformas eu ficava muito focada em quantos likes tinham, e etc sendo a a relevância era pequena, e só quem tinha visibilidade era posts gringos (isso é característico do dev.to) claro que o dev.to ainda é uma plataforma que está sendo adotada pela comunidade brasileira, mas você quer se empenhar em alavancar de graça uma empresa ou a sua própria? Pense nisso...
+Não posso citar mais razões, é sua marca que você está criando, utilizando as outras plataformas eu ficava muito focada em quantos likes tinham, e etc sendo a a relevância era pequena, e só quem tinha visibilidade são posts gringos (isso é característico do dev.to) claro que o dev.to ainda é uma plataforma que está sendo adotada pela comunidade brasileira, mas você quer se empenhar em alavancar de graça uma empresa ou a sua própria? Pense nisso...
 
 ![pessoa impressionada](https://media.giphy.com/media/iNg9XvTGBI83S/giphy.gif)
 
