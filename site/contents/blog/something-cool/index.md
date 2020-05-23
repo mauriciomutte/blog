@@ -18,28 +18,26 @@ description: Como eu desenvolvedora backend totalmente noob em estilos consegui 
 - Vou abandonar o dev.to ou o Medium?
 - Comunidade do Gatsby
 
-> Então bora lá, só antes queria dizer que o curso de Gatsby do [Willian Justen](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/?couponCode=ESTUDEEMCASA) foi essencial para a construção desse blog e do [último site que eu realizei](https://ananerifirstblog.netlify.app) utilizando gatsby, aprendi muitas coisas que nunca vi em nenhum artigo ou resources pela internet, vale cada centavo.
-
 # O que é Gatsby 🤔
 
-Pode-se dizer que o gatsby é um gerador de site estático baseado em React, que é alimentado com Graphql. O Gatsby tem um quickstart fantástico onde ele utilizar de pré-configurações para criar um site que usa apenas arquivos estáticos para o carregamento de páginas de uma forma incrivelmente rápida!
-Você pode encontrar mais informações no próprio site do Gatsby e até fazer se quickstart para cmeçar a brincar: [site do gatsby.js](https://www.gatsbyjs.org/)
+Pode-se dizer que o gatsby é um gerador de site estático baseado em React, que é alimentado com Graphql. O Gatsby tem um quickstart fantástico onde ele utiliza de pré-configurações para criar um site que usa apenas arquivos estáticos para o carregamento de páginas de uma forma incrivelmente rápida!
+Você pode encontrar mais informações no próprio site do Gatsby e até fazer se quickstart para começar a brincar: [site do gatsby.js](https://www.gatsbyjs.org/)
 
 # Minhas maiores dificuldades 😩
 
-Bom eu sou uma pessoa que tem bastante dificuldade com front-end e não tenho vergonha nenhuma de admitir isso, no começo da minha carreira eu mexia com temas no tumblr, mas era apenas editar coisas que já existiam, nunca tinha feito nada do zero que prestasse.
+Bom eu sou uma pessoa que tem bastante dificuldade com front-end e não tenho vergonha nenhuma de admitir isso, no começo da minha carreira eu mexia com temas no tumblr, mas era apenas editar coisas que já existiam, nunca tinha feito nada do zero.
 
 Eu tinha muito receio de ficar muito ruim, ou de eu não entender nada, ano passado(2019) eu testei jekyll pra construir meu primeiro site, peguei um tema pronto e fui colocando do jeito que eu queria, e até que o resultado ficou bem legal: [anabneri.github.io](https://anabneri.github.io/) .
 
 Mas conforme foi passando os dias eu sentia que eu devia fazer algo do zero, pra me desafiar mesmo, pra isso eu optei fazer um curso de uma pessoa bem reconhecida na comunidade o Willian Justen, ouvi falar muito bem do curso de Gatsby dele e resolvi fazer, foi a melhor escolha que eu fiz, pois no curso dele eu aprendi sobre Graphql, estilos, semântica HMTL, React, PWA e etc recomendam que façam!
 
-Só que **uma das coisas que eu mais sofri** foi com as configurações dos Gatsby, por ser um gerador de sites aberto e também alimentado pela comunidade tem muita coisa instável, como por exemplo: o curso do Justen é de 2019(atual até) e a configuração de images que ele usa não é mais suportada.
+Só que **uma das coisas que eu mais sofri** foi com as configurações dos Gatsby, por ser um gerador de sites aberto e também alimentado pela comunidade tem muita coisa que muda e atualiza, como por exemplo: o curso do Justen é de 2019(atual até) e a configuração de images que ele usa não é mais suportada.
 
-Sendo assim, tive que recorrer a colegas que já manjam dos paranauê para me darem uma luz, foi aí que eu descobri que tem um v2 do remark-images do gatsby, pode parecer bobo, mas foi um erro que fiquei um tempinho.
+Tive bastante dificuldade com a configuração de images endo assim, tive que recorrer a colegas que já manjam dos paranauê para me darem uma luz, foi aí que eu descobri que tem um v2 do remark-images do gatsby, pode parecer bobo, mas foi um erro que fiquei um tempinho.
 
 Responsividade, foi algo que eu penei muito, provavelmente por eu não ter tido muita experiência com isso só com HTML e CSS, mas por mais que durante o curso eu estivesse copiando o código meu código responsivo não funcionava. Foi aí que pedi ajuda, e o próprio Justen mostrou onde estavam meus erros, que era falta de atenção, muitas coisas que ele escrevia durante o curso passaram despercebido para mim, mas acontece claro, porém foi uma grande dificuldade.
 
-Domain Settings, olha, uma parada que eu estou sofrendo até hoje foi configurar meu domain, ou seja, esse .com.br que está aí foi difícil, pois peguei meu dominío pela GoDadday e os Ips deles não são os mesmos no Netlify e eu não sabia disso, foi um bate cabeça até achar as configs certas.
+**Domain Settings**, olha, uma parada que eu estou sofrendo até hoje foi configurar meu domain, ou seja, esse _.com.br_ que está aí foi difícil, pois peguei meu dominío pela GoDadday e os Ips deles não são os mesmos no Netlify e eu não sabia disso, foi um bate cabeça até achar as configs certas.
 
 > tirando que eu comprei dois domínios sem querer 😂
 
@@ -66,7 +64,7 @@ Você pode ver mais informações sobre gatsby na live que meu colega [Luis Lan�
 
 # Vou abandonar o dev.to ou o Medium? 🤭
 
-Sinceramente? Minha vontade é de ter minha própria plataforma de Blog, pode ser que uma vez ou outra eu possa postar algo por lá, mas eu estou tão animada desenvolvendo features pra esse blog, que possa ser que eu escreva bem menos lá.
+Sinceramente? Minha vontade é de ter minha própria plataforma, **pode ser que uma vez ou outra eu possa postar algo por lá**, mas eu estou tão animada desenvolvendo features pra esse blog, que possa ser que eu escreva bem menos lá.
 
 Um artigo do Willian Justen me inspirou muito para não desanimar de ter minha própria plataforma foi esse -> [Diga Não Ao Medium e Tenha Sua Própria Plataforma](https://willianjusten.com.br/diga-nao-ao-medium-tenha-sua-propria-plataforma)
 
