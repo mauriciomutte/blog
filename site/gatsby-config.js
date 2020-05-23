@@ -43,22 +43,23 @@ let siteMetadata = {
     {
       name: "Facebook",
       icon: "/images/Facebook.svg",
-      url: "#",
+      url: "https://www.facebook.com/bia.neri.1",
     },
     {
       name: "Twitter",
       icon: "/images/Twitter.svg",
-      url: "#",
+      url: "https://twitter.com/anabneri",
     },
     {
       name: "Instagram",
       icon: "/images/Instagram.svg",
-      url: "#",
+      url: "https://www.instagram.com/anabneri/",
     },
     {
       name: "Youtube",
       icon: "/images/Youtube.svg",
-      url: "#",
+      url:
+        "https://www.youtube.com/channel/UCBjoWT-P17Bl66D52RwqdGA?view_as=subscriber",
     },
   ],
   contact: {
