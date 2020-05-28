@@ -5,7 +5,7 @@ let siteMetadata = {
   icon: `/images/icon.png`,
   titleImage: `/images/wall.jpg`,
   introTag: ` Software Engineer • Java Full Stack Developer • Tech Speaker • Community Co-Organizer • Writer of some Articles `,
-  description: `Java developer, curious about the world and how things work, here you have articles, projects for the community, talk in events and contact ... Code your future ( );`,
+  description: `Java developer, curious about the world and how things work, here you have articles, projects the I do for the community and something more!`,
   author: `@anabneri`,
   blogItemsPerPage: 20,
   portfolioItemsPerPage: 20,
@@ -25,7 +25,7 @@ let siteMetadata = {
       url: "/blog",
     },
     {
-      name: "PROJECTS",
+      name: "PORTFOLIO",
       url: "/portfolio",
     },
     {
