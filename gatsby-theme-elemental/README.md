@@ -45,7 +45,7 @@ let siteMetadata = {
             url: "/blog",
         },
         {
-            name: "PROJECTS",
+            name: "PORTFOLIO",
             url: "/portfolio",
         },
         {
