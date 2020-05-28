@@ -8,6 +8,7 @@ I used some technologies in this project:
 - Algolia
 - Disqus
 - Styled Components
+- SaaS
 - Graphql
 
 # :nail_care: Design thought to be minimalist, objective
