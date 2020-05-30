@@ -35,7 +35,7 @@ If you can't do it through your IDE, it's okay, opening your terminal (cmd or li
 SUA_IDE \ bin \ <product> [bits] [. Exe] .vmoptions
 ```
 
-In the example below, this file will be executed in the Windows 10 terminal, I located the folder where my IDE (IntelliJ) was, and from there I ran my **. Vmproperties ** and then ran VM options, the path may vary according to of the folder that is saving your IDE and where your code is being edited.
+In the example below, this file will be executed in the Windows 10 terminal, I located the folder where my IDE (IntelliJ) was, and from there I ran my **. Vmproperties** and then ran VM options, the path may vary according to of the folder that is saving your IDE and where your code is being edited.
 
 Once executed, it is redirected to the preferred editor
 
@@ -49,7 +49,7 @@ In the image we have the editor's options:
 
 ![file generated from it](https://dev-to-uploads.s3.amazonaws.com/i/0a7d9tjc48c5qppa1qrj.png)
 
-The options are defined line by line, and you can configure it in the way that is most suitable for your system, the default configuration you can acquire is as follows, the same available on the [JebBrains] website (https: // intellij- support.jetbrains.com/hc/en-us/articles/206544869-Configuring-JVM-options-and-platform-properties)with minor changes to suit my system.
+The options are defined line by line, and you can configure it in the way that is most suitable for your system, the default configuration you can acquire is as follows, the same available on the [JebBrains website](https://intellij-support.jetbrains.com/hc/en-us/articles/206544869-Configuring-JVM-options-and-platform-properties) with minor changes to suit my system.
 
 ```
 -server
